@@ -1,0 +1,27 @@
+Constant Summary : 
+- Immutable, but can be shadowed.
+- Relacebale by the compiler at the compile time 
+    - value must be calculated at compile time 
+
+- Named like variables
+    - PascalCase for exported Constants
+    - camelCase for internal Constants
+
+- Typed Constants work like imutable variable 
+    - can interoperate only with the same type 
+
+- Untyped constants work like literals 
+    - Can interoperate with similar types
+
+- Enumarated constants  
+    - special symbol iota allows related constants to be created easily 
+    - IOTA starts with 0 in each const block and increments by one 
+    - Watch out of constant values that match zero values for variables.
+
+- Enumerated expressions 
+    - Operations that can be determined at compile time are allowed 
+        - Arithmetic 
+        - Bitwise operations 
+        - Bitshifting 
+
+- 

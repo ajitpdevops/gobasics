@@ -1,0 +1,10 @@
+Arrays : 
+- Collection of items with same type 
+- Fixed size 
+- Declaration Styles 
+    - a := [3]int {1,2,3}
+    - a := [...]{1,2,3}
+    - var a [3]int
+- Access via zero-based index 
+- len function returns the size of the array 
+- Copies refer to different undelying data 

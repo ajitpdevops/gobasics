@@ -1,11 +1,8 @@
 package main
 
-import (
-	"fmt"
-	"log"
-)
+import "fmt"
 
-//var i int = 42
+var i int = 42
 
 func main() {
 	// fmt.Println("Hello Playground")
@@ -19,7 +16,5 @@ func main() {
 	n := 1 == 2
 	fmt.Printf("%v, %T\n", m, m)
 	fmt.Printf("%v, %T\n", n, n)
-
-	log.Println("Hello")
 
 }
