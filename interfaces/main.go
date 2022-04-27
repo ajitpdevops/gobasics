@@ -23,16 +23,13 @@ func main() {
 		Name:  "Samson",
 		Breed: "German Shephard",
 	}
-
 	gorrila := Gorrila{
 		Name:          "Jack",
 		Color:         "gray",
 		NumberOfTeeth: 38,
 	}
-
 	PrintInfo(&dog)
 	PrintInfo(&gorrila)
-
 }
 
 func PrintInfo(a Animal) {

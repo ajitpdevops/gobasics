@@ -14,7 +14,7 @@ func main() {
 		log.Println("isTrue is", isTrue)
 	}
 
-	cat := "cat2"
+	cat := "cat"
 
 	if cat == "cat" {
 		log.Println("Cat is cat")

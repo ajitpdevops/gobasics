@@ -9,9 +9,8 @@ import (
 const numPool = 1000
 
 func CalculateValue(intChan chan int) {
-	RandomNumber := helpers.RandomNumber(numPool)
-	intChan <- RandomNumber
-
+	randomNumber := helpers.RandomNumber(numPool)
+	intChan <- randomNumber
 }
 
 func main() {
